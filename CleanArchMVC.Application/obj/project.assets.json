@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CleanArchMVC.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CleanArchMVC.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMVC.Domain.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArchMVC.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
+      "msbuildProject": "../CleanArchMVC.Domain/CleanArchMVC.Domain.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CleanArchMVC.Domain >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\fekel\\.nuget\\packages\\": {},
@@ -40,7 +59,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
+              "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

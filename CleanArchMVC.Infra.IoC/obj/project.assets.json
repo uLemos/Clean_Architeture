@@ -1,11 +1,68 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "CleanArchMVC.Application/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CleanArchMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchMVC.Application.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMVC.Application.dll": {}
+        }
+      },
+      "CleanArchMVC.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/CleanArchMVC.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMVC.Domain.dll": {}
+        }
+      },
+      "CleanArchMVC.Infra.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "CleanArchMVC.Domain": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/CleanArchMVC.Infra.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/CleanArchMVC.Infra.Data.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "CleanArchMVC.Application/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMVC.Application/CleanArchMVC.Application.csproj",
+      "msbuildProject": "../CleanArchMVC.Application/CleanArchMVC.Application.csproj"
+    },
+    "CleanArchMVC.Domain/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMVC.Domain/CleanArchMVC.Domain.csproj",
+      "msbuildProject": "../CleanArchMVC.Domain/CleanArchMVC.Domain.csproj"
+    },
+    "CleanArchMVC.Infra.Data/1.0.0": {
+      "type": "project",
+      "path": "../CleanArchMVC.Infra.Data/CleanArchMVC.Infra.Data.csproj",
+      "msbuildProject": "../CleanArchMVC.Infra.Data/CleanArchMVC.Infra.Data.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "CleanArchMVC.Application >= 1.0.0",
+      "CleanArchMVC.Domain >= 1.0.0",
+      "CleanArchMVC.Infra.Data >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\fekel\\.nuget\\packages\\": {},
@@ -40,7 +97,17 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj": {
+              "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj"
+            },
+            "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
+              "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj"
+            },
+            "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
