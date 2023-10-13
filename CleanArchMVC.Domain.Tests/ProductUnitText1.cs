@@ -96,8 +96,7 @@ namespace CleanArchMVC.Domain.Tests
             action.Should()
                 .Throw<CleanArchMVC.Domain.Validation.DomainExceptionValidation>()
                 .WithMessage("Invalid image name, too long, maximum 250 characters"); //---
-        }
-
+        } 
 
         [Fact(DisplayName = "Create Product Image Null")]
         public void CreateProduct_NullImage_DomainExceptionNullImage()
@@ -106,6 +105,14 @@ namespace CleanArchMVC.Domain.Tests
                 , null);
             action.Should()
                 .NotThrow<CleanArchMVC.Domain.Validation.DomainExceptionValidation>();
+        }
+
+        [Fact]
+        public void CreateProduct_WithNullImageName_NoNullReferenceException()
+        {
+            Action action = () => new Product(1, "lemos", "É isso aí", 50.99m, 30
+                , null);
+            action.Should().NotThrow<NullReferenceException>();
         }
     }
 }
