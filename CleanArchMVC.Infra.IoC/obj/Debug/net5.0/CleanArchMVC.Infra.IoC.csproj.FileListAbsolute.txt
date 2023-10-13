@@ -17,3 +17,6 @@ C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\obj\Debug\net5.0
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\obj\Debug\net5.0\refint\CleanArchMVC.Infra.IoC.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\obj\Debug\net5.0\CleanArchMVC.Infra.IoC.pdb
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\obj\Debug\net5.0\ref\CleanArchMVC.Infra.IoC.dll
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\bin\Debug\net5.0\CleanArchMVC.Infra.IoC.runtimeconfig.json
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\bin\Debug\net5.0\CleanArchMVC.Infra.IoC.runtimeconfig.dev.json
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.IoC\obj\Debug\net5.0\CleanArchMVC.Infra.IoC.genruntimeconfig.cache
