@@ -13,3 +13,6 @@ C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net5.
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net5.0\refint\CleanArchMVC.Infra.Data.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net5.0\CleanArchMVC.Infra.Data.pdb
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net5.0\ref\CleanArchMVC.Infra.Data.dll
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net5.0\CleanArchMVC.Infra.Data.runtimeconfig.json
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\bin\Debug\net5.0\CleanArchMVC.Infra.Data.runtimeconfig.dev.json
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Infra.Data\obj\Debug\net5.0\CleanArchMVC.Infra.Data.genruntimeconfig.cache
