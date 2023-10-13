@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "Mrhq6WSkvNwrmatEhcFXAo89SvAN8JFVa0g4g2Wzck0XYoWRkdnVbBnF5JOh5KCncE14tZcFhsMxG4pH9vyQ6Q==",
+  "dgSpecHash": "9lR/d5vwWNdYoLlCSCo31t/tju16yKNBh7UeQ6qNH1VVM4J/hqi52RdloLAs1TEkT8hX6yrsaQZDbkthJrucBg==",
   "success": true,
   "projectFilePath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain.Tests\\CleanArchMVC.Domain.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fekel\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
-    "C:\\Users\\fekel\\.nuget\\packages\\fluentassertions\\6.12.0\\fluentassertions.6.12.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\fluentassertions\\5.10.3\\fluentassertions.5.10.3.nupkg.sha512",
     "C:\\Users\\fekel\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
     "C:\\Users\\fekel\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
     "C:\\Users\\fekel\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
