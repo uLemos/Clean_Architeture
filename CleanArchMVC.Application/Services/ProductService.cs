@@ -1,5 +1,9 @@
-﻿using CleanArchMVC.Application.DTOs;
+﻿using AutoMapper;
+using CleanArchMVC.Application.DTOs;
 using CleanArchMVC.Application.Interfaces;
+using CleanArchMVC.Domain.Entities;
+using CleanArchMVC.Domain.Interfaces;
+using System;
 using System.Collections.Generic;
 using System.Threading.Tasks;
 
@@ -7,34 +11,50 @@ namespace CleanArchMVC.Application.Services
 {
     public class ProductService : IProductService
     {
-        public Task Add(ProductDTO product)
+        private IProductRepository _productRepository;
+        private readonly IMapper _mapper;
+
+        public ProductService(IProductRepository productRepository, IMapper mapper)
         {
-            throw new System.NotImplementedException();
+            _productRepository = productRepository ?? 
+                throw new ArgumentNullException(nameof(productRepository));
+            _mapper = mapper;
         }
 
-        public Task<ProductDTO> GetById(int? id)
+        public async Task<IEnumerable<ProductDTO>> GetProducts()
         {
-            throw new System.NotImplementedException();
+            var productsEntity = await _productRepository.GetProductsAsync();
+            return _mapper.Map<IEnumerable<ProductDTO>>(productsEntity);
         }
 
-        public Task<ProductDTO> GetProductCategory(int? id)
+        public async Task<ProductDTO> GetById(int? id)
         {
-            throw new System.NotImplementedException();
+            var productEntity = await _productRepository.GetProductByIdAsync(id);
+            return _mapper.Map<ProductDTO>(productEntity);
         }
 
-        public Task<IEnumerable<ProductDTO>> GetProducts()
+        public async Task<ProductDTO> GetProductCategory(int? id)
         {
-            throw new System.NotImplementedException();
+            var productCategoryEntity = await _productRepository.GetProductCategoryAsync(id);
+            return _mapper.Map<ProductDTO>(productCategoryEntity);
         }
 
-        public Task Remove(int? id)
+        public async Task Add(ProductDTO productDto)
         {
-            throw new System.NotImplementedException();
+            var productEntity = _mapper.Map<Product>(productDto);
+            await _productRepository.CreateAsync(productEntity);
         }
 
-        public Task Update(ProductDTO product)
+        public async Task Update(ProductDTO productDto)
         {
-            throw new System.NotImplementedException();
+            var productEntity = _mapper.Map<Product>(productDto);
+            await _productRepository.UpdateAsync(productEntity);
+        }
+
+        public async Task Remove(int? id)
+        {
+            var productEntity = await _productRepository.GetProductByIdAsync(id);
+            await _productRepository.RemoveAsync(productEntity);
         }
     }
 }
