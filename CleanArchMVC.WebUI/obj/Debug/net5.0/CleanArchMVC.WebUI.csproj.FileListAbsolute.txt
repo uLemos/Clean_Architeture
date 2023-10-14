@@ -798,3 +798,5 @@ C:\Users\fekel\OneDrive\CleanArchMvc\Clean_Architeture\CleanArchMVC.WebUI\obj\De
 C:\Users\fekel\OneDrive\CleanArchMvc\Clean_Architeture\CleanArchMVC.WebUI\obj\Debug\net5.0\CleanArchMVC.WebUI.genruntimeconfig.cache
 C:\Users\fekel\OneDrive\CleanArchMvc\Clean_Architeture\CleanArchMVC.WebUI\obj\Debug\net5.0\ref\CleanArchMVC.WebUI.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Index.cshtml.g.cs
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
