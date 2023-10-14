@@ -1,8 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "qKsieh972REoHLsSfAHKAaOfbeTxvo4v8RBEUdKBtXqS5jhxrBLdjoPynkdOJFmw1jSp6o1rYCFKy+3oVQpqHQ==",
+  "dgSpecHash": "RKobYFwrbNT9C3Hdk1twRgRTiYTMVwxeYxtShiNyl49NRlyofEHuogChckMIaQCt3bAs/J8StsL7ZMakZ6DboA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fekel\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }

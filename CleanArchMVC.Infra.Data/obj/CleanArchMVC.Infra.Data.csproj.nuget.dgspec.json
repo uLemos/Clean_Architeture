@@ -1,21 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj": {}
+    "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
+    "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
         "projectName": "CleanArchMVC.Domain",
-        "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
+        "projectPath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
         "packagesPath": "C:\\Users\\fekel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\obj\\",
+        "outputPath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\fekel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -55,27 +54,40 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj": {
+    "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj",
+        "projectUniqueName": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj",
         "projectName": "CleanArchMVC.Infra.Data",
-        "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj",
+        "projectPath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Infra.Data\\CleanArchMVC.Infra.Data.csproj",
         "packagesPath": "C:\\Users\\fekel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Infra.Data\\obj\\",
+        "outputPath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Infra.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
           "C:\\Users\\fekel\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -93,8 +105,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
-                "projectPath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj"
+              "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj": {
+                "projectPath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj"
               }
             }
           }
@@ -137,12 +149,26 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.NETCore.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            },
+            {
+              "name": "Microsoft.WindowsDesktop.App.Ref",
+              "version": "[5.0.0, 5.0.0]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.306\\RuntimeIdentifierGraph.json"
         }
       }
     }

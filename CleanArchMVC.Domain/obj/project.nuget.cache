@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "02H9FjgrveU0yK2TrguhCnJmVJmToGh5NaXCiSct07t+RaOr2+vsLXtPAs52cfIbVlsLvwDU0v6BqSB3GN007Q==",
+  "dgSpecHash": "6OaewuksbUqRLSn3kCQ880CUd8mqKMk4YKnKrE7NHlae2TpbmJtosWP+QOB38AHx9PwsxRGCDTTDbOnZUMMcdg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "C:\\Users\\fekel\\OneDrive\\CleanArchMvc\\Clean_Architeture\\CleanArchMVC.Domain\\CleanArchMVC.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512"
+  ],
   "logs": []
 }
