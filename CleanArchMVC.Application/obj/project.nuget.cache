@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "qKsieh972REoHLsSfAHKAaOfbeTxvo4v8RBEUdKBtXqS5jhxrBLdjoPynkdOJFmw1jSp6o1rYCFKy+3oVQpqHQ==",
+  "dgSpecHash": "oOVWVaekKg7pYa+P1bdaZncdFGNJI9wvKQxnoUeUP3nLe5xUkmx9kyYmwq8/TC3J07XKUQEXuk/wvLw24HTCHw==",
   "success": true,
   "projectFilePath": "C:\\Users\\fekel\\source\\repos\\CleanArchMVC\\CleanArchMVC.Application\\CleanArchMVC.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\fekel\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
+    "C:\\Users\\fekel\\.nuget\\packages\\system.reflection.emit\\4.7.0\\system.reflection.emit.4.7.0.nupkg.sha512"
+  ],
   "logs": []
 }
