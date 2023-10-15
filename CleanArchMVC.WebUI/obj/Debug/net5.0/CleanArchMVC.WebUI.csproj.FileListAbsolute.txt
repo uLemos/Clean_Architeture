@@ -342,7 +342,6 @@ C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Cle
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\CleanArchMVC.WebUI.TagHelpers.output.cache
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\CleanArchMVC.WebUI.RazorCoreGenerate.cache
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
