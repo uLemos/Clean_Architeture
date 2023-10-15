@@ -56,13 +56,13 @@ namespace CleanArchMVC.Application.Services
 
         public async Task Add(ProductDTO productDto)
         {
-            var productCreateCommand = _mapper.Map<ProductCommand>(productDto);
+            var productCreateCommand = _mapper.Map<ProductCreateCommand>(productDto);
             await _mediator.Send(productCreateCommand);
         }
 
         public async Task Update(ProductDTO productDto)
         {
-            var productUpdateCommand = _mapper.Map<ProductCommand>(productDto);
+            var productUpdateCommand = _mapper.Map<ProductUpdateCommand>(productDto);
             await _mediator.Send(productUpdateCommand);
         }
 
