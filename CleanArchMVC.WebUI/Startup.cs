@@ -37,6 +37,7 @@ namespace CleanArchMVC.WebUI
                 app.UseHsts();
             }
             app.UseHttpsRedirection();
+
             app.UseStaticFiles();
 
             app.UseRouting();
