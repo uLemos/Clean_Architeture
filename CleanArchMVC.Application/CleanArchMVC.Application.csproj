@@ -13,8 +13,4 @@
     <ProjectReference Include="..\CleanArchMVC.Domain\CleanArchMVC.Domain.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Products\Handlers\" />
-  </ItemGroup>
-
 </Project>
