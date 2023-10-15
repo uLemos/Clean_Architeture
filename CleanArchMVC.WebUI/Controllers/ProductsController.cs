@@ -1,6 +1,5 @@
 ﻿using CleanArchMVC.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.JSInterop;
 using System.Threading.Tasks;
 
 namespace CleanArchMVC.WebUI.Controllers

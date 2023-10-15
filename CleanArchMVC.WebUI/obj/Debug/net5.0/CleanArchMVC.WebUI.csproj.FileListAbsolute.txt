@@ -801,3 +801,4 @@ C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\bin\Debug\net5.0\Aut
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Categories\Index.cshtml.g.cs
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\obj\Debug\net5.0\Razor\Views\Products\Index.cshtml.g.cs
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.WebUI\bin\Debug\net5.0\MediatR.dll
