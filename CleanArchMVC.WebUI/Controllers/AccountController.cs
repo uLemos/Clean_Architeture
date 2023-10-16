@@ -52,7 +52,7 @@ namespace CleanArchMVC.WebUI.Controllers
         [HttpPost]
         public async Task<IActionResult> Register(RegisterViewModel model)
         {
-            var result = await _authenticate.Authenticate(model.Email, model.Password);
+            var result = await _authenticate.RegisterUser(model.Email, model.Password);
 
             if (result)
                 return Redirect("/");
