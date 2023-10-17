@@ -13,6 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using System;
+using System.Reflection;
 
 namespace CleanArchMVC.Infra.IoC
 {
@@ -31,7 +32,8 @@ namespace CleanArchMVC.Infra.IoC
 
 
             var myHandlers = AppDomain.CurrentDomain.Load("CleanArchMVC.Application");
-            services.AddMediatR(myHandlers);
+            //services.AddMediatR(myHandlers);                                           //.net 5
+            services.AddMediatR(cfg => cfg.RegisterServicesFromAssemblies(myHandlers)); //.net 6
 
             services.AddScoped<IProductRepository, ProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();

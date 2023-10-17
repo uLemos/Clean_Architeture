@@ -1,0 +1,12 @@
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\CleanArchMVC.Domain.deps.json
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\CleanArchMVC.Domain.dll
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\bin\Debug\net6.0\CleanArchMVC.Domain.pdb
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.csproj.AssemblyReference.cache
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.AssemblyInfoInputs.cache
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.AssemblyInfo.cs
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.csproj.CoreCompileInputs.cache
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.dll
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\refint\CleanArchMVC.Domain.dll
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\CleanArchMVC.Domain.pdb
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.Domain\obj\Debug\net6.0\ref\CleanArchMVC.Domain.dll
