@@ -54,7 +54,6 @@ C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Micro
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
-C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Newtonsoft.Json.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\System.Configuration.ConfigurationManager.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll
@@ -80,3 +79,4 @@ C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Clean
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\CleanArchMVC.Application.pdb
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\CleanArchMVC.Domain.pdb
 C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\CleanArchMVC.Infra.Data.pdb
+C:\Users\fekel\source\repos\CleanArchMVC\CleanArchMVC.API\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
